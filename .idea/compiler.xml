@@ -11,9 +11,11 @@
         <module name="AOPVersion2" />
         <module name="AOPVersion3" />
         <module name="AOPVersion1" />
+        <module name="AOPdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AOPdemo" target="11" />
       <module name="AOPInstance" target="11" />
       <module name="AOPVersion1" target="11" />
       <module name="AOPVersion2" target="11" />
@@ -26,6 +28,7 @@
       <module name="AOPVersion1" options="-parameters" />
       <module name="AOPVersion2" options="-parameters" />
       <module name="AOPVersion3" options="-parameters" />
+      <module name="AOPdemo" options="-parameters" />
     </option>
   </component>
 </project>
