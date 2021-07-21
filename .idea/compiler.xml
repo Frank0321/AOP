@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AOPInstance" />
+        <module name="AOPVersion2" />
+        <module name="AOPVersion3" />
+        <module name="AOPVersion1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AOPInstance" target="11" />
+      <module name="AOPVersion1" target="11" />
+      <module name="AOPVersion2" target="11" />
+      <module name="AOPVersion3" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AOPInstance" options="-parameters" />
+      <module name="AOPVersion1" options="-parameters" />
+      <module name="AOPVersion2" options="-parameters" />
+      <module name="AOPVersion3" options="-parameters" />
+    </option>
+  </component>
+</project>
