@@ -17,7 +17,7 @@ public class Controller {
     }
 
     @GetMapping("/throws")
-    public void throwsMehthod(){
+    public void throwsMethod(){
         log.info("before exception");
         throw new RuntimeException("發生 exception");
     }
