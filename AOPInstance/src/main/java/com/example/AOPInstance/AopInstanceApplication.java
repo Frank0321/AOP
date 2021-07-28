@@ -86,9 +86,7 @@ public class AopInstanceApplication {
 		@Override
 		public void hi() {
 			System.out.println("Hi");
-
 		}
-
 	}
 
 
